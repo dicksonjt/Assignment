@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, .cta-btn {
+  font-family: 'Poppins', sans-serif;
+}
+body, nav, footer {
+  font-family: 'Inter', sans-serif;
+}
+nav{
+    display:flex ;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 10px 0 10px;
+}
+.nav-right{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+nav ul{
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+}
+nav ul li{
+     padding: 5px 10px;
+}
+nav ul a{
+    text-decoration: none;
+    color: black;
+}
+.buy-car-btn{
+    padding: 8px 8px;
+    background: cyan;
+    border: none;
+    border-radius: 5px;
+}
+button a{
+    text-decoration: none;
+    color: black;
+    font-weight: 600;
+}
+.hero-page{
+    position: relative;
+}
+.hero-img{
+    width: 100%;
+    display: block;
+}
+.hero-text-container{
+    position: absolute;
+    top: 50%;
+    left: 8%;
+    color: white;
+    transform: translateY(-50%);
+}
+.hero-p{
+    color: yellow;
+    margin-bottom: 8px;
+}
+.website-footer{
+    display: flex;
+    justify-content: space-around;
+    gap: 60px 40px;
+    background: #111;
+    color: #ccc;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+.quick-links-list{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+footer a{
+    text-decoration: none;
+}
+footer h4{
+    margin-bottom: 10px;
+}
